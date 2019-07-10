@@ -3,23 +3,19 @@
     font-family: 'Roboto';
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
 }
 
-.image__content {
-    width: 80%;
-    margin-top: 20px;
-    max-height: 600px;
-    min-height: 550px;
-    min-width: 280px;
+.home__sinopse {
+    margin-top: 100px;
 }
 
-.home__text {
-    display: flex;
-    align-items: center;
+.sinopse__title {
+    font-size: 9vmin;
 }
 
-.text__name {
-    font-size: 60px;
-    margin-bottom: 0px;
+.sinopse__text {
+    line-height: 28px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 2.8vmin;
 }
