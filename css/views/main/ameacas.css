@@ -1,0 +1,10 @@
+.ameaca__tigre,.ameaca__ogro, .ameaca__dragao, .ameaca__deus {
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(168, 167, 167);
+}
+
+.img__tigre, .img__ogro, .img__dragao, .img__deus {
+    width: 20%;
+    filter: brightness(1) invert(70%);
+}

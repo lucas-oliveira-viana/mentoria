@@ -1,5 +1,6 @@
 body, html {
     margin: 0;
+    background-color: #262626;
 }
 
 * {
@@ -8,12 +9,32 @@ body, html {
 
 nav {
     width: 100%;
-    background-color: red;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+section {
+    height: 100vh;
+}
+
+#home {
     font-family: 'Roboto';
     display: flex;
     justify-content: space-between;
 }
 
-section {
-    height: 90vh;
+#ranking {
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-between;
+}
+
+#ameacas {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
 }

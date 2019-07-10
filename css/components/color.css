@@ -1,0 +1,31 @@
+.bg--red {
+    background-color: #AC2511;
+}
+
+.bg--yellow {
+    background-color: #FFCB49;
+}
+
+.bg--black {
+    background-color: #262626;
+}
+
+.bg--white {
+    background-color: #F9F9F9;
+}
+
+.c--red {
+    color: #AC2511;
+}
+
+.c--yellow {
+    color: #FFCB49;
+}
+
+.c--black {
+    color: #262626;
+}
+
+.c--white {
+    color: #F9F9F9;
+}

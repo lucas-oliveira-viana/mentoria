@@ -1,0 +1,19 @@
+{
+  "name": "mentoria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-oliveira17/mentoria.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas-oliveira17/mentoria/issues"
+  },
+  "homepage": "https://github.com/lucas-oliveira17/mentoria#readme"
+}

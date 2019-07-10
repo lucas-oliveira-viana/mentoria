@@ -5,66 +5,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/layout/layout.css">
-    <link rel="stylesheet" href="./css/module/navbar.css">
-    <link rel="stylesheet" href="./css/module/main/home.css">
-    <link rel="stylesheet" href="./css/module/main/ranking.css">
+    <link rel="stylesheet" href="./css/views/navbar.css">
+    <link rel="stylesheet" href="./css/views/main/home.css">
+    <link rel="stylesheet" href="./css/views/main/ranking.css">
+    <link rel="stylesheet" href="./css/views/main/ameacas.css">
+    <link rel="stylesheet" href="./css/components/text.css">
+    <link rel="stylesheet" href="./css/components/color.css">
+    <link rel="stylesheet" href="./css/components/spacing.css">
     <link rel="stylesheet" href="./css/state/navbar.css">
-    <link rel="stylesheet" href="./css/state/text.css">
+    <link rel="stylesheet" href="./css/state/ranking.css">
+    <link rel="stylesheet" href="./css/base/base.css">
+
     <title>ONE PUNCH MAN</title>
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar bg--red">
         <div class="navbar__logo">
-            <h1 class="logo__content">ONE PUNCH MAN</h1>
+            <h1 class="logo__content c--black">ONE PUNCH MAN</h1>
         </div>
         <div class="navbar__menu">
             <ul class="menu__list">
-                <li class="menu__item">HOME</li>
-                <li class="menu__item">RANKING</li>
-                <li class="menu__item">AMEAÇAS</li>
-                <li class="menu__item">MAPA</li>
+                <li class="menu__item c--black"><a href="#home">SINOPSE</a></li>
+                <li class="menu__item c--black"><a href="#ranking">RANKING</a></li>
+                <li class="menu__item c--black"><a href="#ameacas">AMEAÇAS</a></li>
+                <li class="menu__item c--black">MAPA</li>
             </ul>
         </div>
     </nav>
     <div class="main">
-        <section id="home">
+        <section id="home" class="bg--black">
             <div class="home__sinopse">
-                <div class="sinopse__content">
-                    <h1 class="sinopse__title text--center">SINOPSE</h1>
-                        <p class="sinopse__text text--center">Após treinar durante três anos, Saitama, o protagonista, se
-                            tornou
-                            um herói não
-                            oficial incrivelmente forte que derrota monstros ou outros vilões com um único soco. No entanto,
-                            devido à sua força esmagadora, Saitama tornou-se entediado e está constantemente tentando
-                            encontrar
-                            adversários mais fortes que podem lutar de igual contra ele.
-                            Em seus combates, ele conhece novos amigos, inimigos e o seu próprio discípulo, o ciborgue
-                            Genos,
-                            onde
-                            posteriormente os dois entram na Associação dos Heróis,
-                            a fim de se tornarem heróis oficiais e ganharem reconhecimento e respeito por todos os seus
-                            esforços
-                            para manter as cidades a salvo.
-                            Apesar de derrotar seres extremamente fortes que até mesmo os maiores heróis da Associação são
-                            incapazes
-                            de derrotar, Saitama é desrespeitado devido a sua aparência física simples, e alguns o acusam de
-                            ser
-                            um
-                            herói falsificado.
-                            Apenas um pequeno número de indivíduos reconhecem seu incrível talento e humildade com os
-                            outros.
-                        </p>
-                    </div>
+                <div class="sinopse__content pl-150 pr-150 c--red bg--yellow">
+                    <h1 class="sinopse__title text--left">SINOPSE</h1>
+                    <p class="sinopse__text text--left">Após treinar durante três anos, Saitama, o protagonista, se
+                        tornou
+                        um herói não
+                        oficial incrivelmente forte que derrota monstros ou outros vilões com um único soco. No entanto,
+                        devido à sua força esmagadora, Saitama tornou-se entediado e está constantemente tentando
+                        encontrar
+                        adversários mais fortes que podem lutar de igual contra ele.
+                        Em seus combates, ele conhece novos amigos, inimigos e o seu próprio discípulo, o ciborgue
+                        Genos,
+                        onde
+                        posteriormente os dois entram na Associação dos Heróis,
+                        a fim de se tornarem heróis oficiais e ganharem reconhecimento e respeito por todos os seus
+                        esforços
+                        para manter as cidades a salvo.
+                        Apesar de derrotar seres extremamente fortes que até mesmo os maiores heróis da Associação são
+                        incapazes
+                        de derrotar, Saitama é desrespeitado devido a sua aparência física simples, e alguns o acusam de
+                        ser
+                        um
+                        herói falsificado.
+                        Apenas um pequeno número de indivíduos reconhecem seu incrível talento e humildade com os
+                        outros.
+                    </p>
                 </div>
             </div>
-        </section>
-        <section id="ranking">
-            <span>RANKING DE HEROIS</span>
-        </section>
+    </div>
+    </section>
+    <section id="ranking" class="bg--red">
+        <div class="ranking__content">
+            <h1 class="ranking__position c--white pl-50"></h1>
+            <div class="ranking__arrows">
+                <img src="img/left-arrow.svg" class="ranking__arrowleft ranking__arrow">
+                <img src="img/right-arrow.svg" class="ranking__arrowright ranking__arrow">
+            </div>
+            <div class="ranking__description">
+            </div>
+        </div>
+    </section>
+    <section id="ameacas">
+        <div class="ameaca__tigre">
+                <img src="img/ameaca-tigre.svg" class="img__tigre">
+        </div>
+        <div class="ameaca__ogro">
+                <img src="img/ameaca-ogro.svg" class="img__ogro">
+        </div>
+        <div class="ameaca__dragao">
+                <img src="img/ameaca-dragao.svg" class="img__dragao">
+        </div>
+        <div class="ameaca__deus">
+                <img src="img/ameaca-deus.svg" class="img__deus">
+        </div>
+    </section>
     </div>
 </body>
+
+<script src="./js/slide.js"></script>
 
 </html>
