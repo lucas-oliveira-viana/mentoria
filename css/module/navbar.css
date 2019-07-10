@@ -1,0 +1,18 @@
+.navbar__logo {
+    margin-left: 20px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    list-style-type: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
