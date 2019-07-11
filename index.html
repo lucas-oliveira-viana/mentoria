@@ -11,41 +11,30 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/layout/layout.css">
-    <link rel="stylesheet" href="./css/views/navbar.css">
-    <link rel="stylesheet" href="./css/views/main/home.css">
-    <link rel="stylesheet" href="./css/views/main/ranking.css">
-    <link rel="stylesheet" href="./css/views/main/ameacas.css">
-    <link rel="stylesheet" href="./css/components/text.css">
-    <link rel="stylesheet" href="./css/components/color.css">
-    <link rel="stylesheet" href="./css/components/spacing.css">
-    <link rel="stylesheet" href="./css/state/navbar.css">
-    <link rel="stylesheet" href="./css/state/ranking.css">
-    <link rel="stylesheet" href="./css/base/base.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>ONE PUNCH MAN</title>
 </head>
 
 <body>
-    <nav class="navbar bg--red">
+    <nav class="navbar bg_red">
         <div class="navbar__logo">
-            <h1 class="logo__content c--black">ONE PUNCH MAN</h1>
+            <h1 class="logo__content c_black">ONE PUNCH MAN</h1>
         </div>
         <div class="navbar__menu">
             <ul class="menu__list">
-                <li class="menu__item c--black"><a href="#home">SINOPSE</a></li>
-                <li class="menu__item c--black"><a href="#ranking">RANKING</a></li>
-                <li class="menu__item c--black"><a href="#ameacas">AMEAÇAS</a></li>
-                <li class="menu__item c--black">MAPA</li>
+                <li class="menu__item c_black"><a href="#home">SINOPSE</a></li>
+                <li class="menu__item c_black"><a href="#ranking">RANKING</a></li>
+                <li class="menu__item c_black"><a href="#ameacas">AMEAÇAS</a></li>
             </ul>
         </div>
     </nav>
     <div class="main">
-        <section id="home" class="bg--black">
-            <div class="home__sinopse">
-                <div class="sinopse__content pl-150 pr-150 c--red bg--yellow">
-                    <h1 class="sinopse__title text--left">SINOPSE</h1>
-                    <p class="sinopse__text text--left">Após treinar durante três anos, Saitama, o protagonista, se
+        <section id="home" class="bg_black">
+            <div class="sinopse">
+                <div class="sinopse__content pl-150 pr-150 c_red bg_yellow">
+                    <h1 class="sinopse__title text_left">SINOPSE</h1>
+                    <p class="sinopse__text text_left">Após treinar durante três anos, Saitama, o protagonista, se
                         tornou
                         um herói não
                         oficial incrivelmente forte que derrota monstros ou outros vilões com um único soco. No entanto,
@@ -70,34 +59,56 @@
                     </p>
                 </div>
             </div>
-    </div>
     </section>
-    <section id="ranking" class="bg--red">
+    <section id="ranking" class="bg_red">
         <div class="ranking__content">
-            <h1 class="ranking__position c--white pl-50"></h1>
+            <h1 class="ranking__position c_white pl-50"></h1>
             <div class="ranking__arrows">
                 <img src="img/left-arrow.svg" class="ranking__arrowleft ranking__arrow">
                 <img src="img/right-arrow.svg" class="ranking__arrowright ranking__arrow">
             </div>
-            <div class="ranking__description">
+            <div class="ranking__description c_white">
             </div>
         </div>
     </section>
     <section id="ameacas">
-        <div class="ameaca__tigre">
-                <img src="img/ameaca-tigre.svg" class="img__tigre">
-        </div>
-        <div class="ameaca__ogro">
-                <img src="img/ameaca-ogro.svg" class="img__ogro">
-        </div>
-        <div class="ameaca__dragao">
-                <img src="img/ameaca-dragao.svg" class="img__dragao">
-        </div>
-        <div class="ameaca__deus">
-                <img src="img/ameaca-deus.svg" class="img__deus">
+        <h1 class="ameacas__title text_center c_grey">NIVEIS DE AMEAÇA</h1>
+        <div class="ameacas__content">
+            <div class="ameaca ameaca_tigre">
+                <div class="ameaca__content">
+                    <div class="ameaca__img">
+                        <img src="img/ameaca-tigre.svg" class="img__ameaca img__ameaca_tigre">
+                    </div>
+                    <h1 class="ameaca__name">TIGRE</h1>
+                </div>
+            </div>
+            <div class="ameaca ameaca_ogro">
+                <div class="ameaca__content">
+                    <div class="ameaca__img">
+                        <img src="img/ameaca-ogro.svg" class="img__ameaca img__ameaca_ogro">
+                    </div>
+                    <h1 class="ameaca__name">OGRO</h1>
+                </div>
+            </div>
+            <div class="ameaca ameaca_dragao">
+                <div class="ameaca__content">
+                    <div class="ameaca__img">
+                        <img src="img/ameaca-dragao.svg" class="img__ameaca img__ameaca_dragao">
+                    </div>
+                    <h1 class="ameaca__name">DRAGÃO</h1>
+                </div>
+            </div>
+            <div class="ameaca ameaca_deus">
+                <div class="ameaca__content">
+                    <div class="ameaca__img">
+                        <img src="img/ameaca-deus.svg" class="img__ameaca img__ameaca_deus">
+                    </div>
+                    <h1 class="ameaca__name">DEUS</h1>
+                </div>
+            </div>
         </div>
     </section>
-    </div>
+</div>
 </body>
 
 <script src="./js/slide.js"></script>

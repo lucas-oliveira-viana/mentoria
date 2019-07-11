@@ -1,7 +1,7 @@
 $(document).ready(() => {
 
     const tatsumaki = {
-        heroName: "#2 - Senritsu no Tatsumaki (Tornado do Terror)",
+        heroName: "Classe S #2 - Senritsu no Tatsumaki (Tornado do Terror)",
         rgb: `rgb(17, 172, 69`,
         opacity: `1`,
         descriptionContent: `É a mulher mais poderosa da Associação de Heróis. Dona de uma personalidade bastante forte, Tatsumaki está quase sempre de mau humor.
@@ -11,7 +11,7 @@ $(document).ready(() => {
     }
 
     const bang = {
-        heroName: "#3 - Silver Fang (Bang)",
+        heroName: "Classe S #3 - Silver Fang (Bang)",
         rgb: `rgb(177, 177, 177`,
         opacity: `1`,
         descriptionContent: `Também conhecido por Bang, este herói tem uma força física incrível, apesar da sua idade avançada em comparação aos outros (tem mais de 80 anos).
@@ -20,7 +20,7 @@ $(document).ready(() => {
     }
 
     const atomicSamurai = {
-        heroName: "#4 - Atomic Samurai",
+        heroName: "Classe S #4 - Atomic Samurai",
         rgb: `rgb(230, 32, 3`,
         opacity: `1`,
         descriptionContent: `Também chamado de Kamikaze, este formidável espadachim é um dos heróis mais orgulhosos da Associação. 

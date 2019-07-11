@@ -1,0 +1,25 @@
+.sinopse {
+    display: flex;
+    align-items: center;
+
+    &__title {
+        font-size: 60px;
+        color: inherit;
+    }
+
+    &__title::after {
+        content: ' ';
+        width: 200px;
+        display: block;
+        border: 2px solid;
+        margin-bottom: -20px;
+        margin-top: 20px;
+    }
+
+    &__text {
+        line-height: 28px;
+        font-size: 18px;
+        color: inherit;
+        padding-bottom: 30px;
+    }
+}

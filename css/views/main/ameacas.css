@@ -1,10 +1,1 @@
-.ameaca__tigre,.ameaca__ogro, .ameaca__dragao, .ameaca__deus {
-    display: flex;
-    justify-content: center;
-    border: 2px solid rgb(168, 167, 167);
-}
-
-.img__tigre, .img__ogro, .img__dragao, .img__deus {
-    width: 20%;
-    filter: brightness(1) invert(70%);
-}
+.ameaca{display:flex;align-items:center;border:2px solid #a8a7a7}.ameaca__content{width:100%}.ameaca__img{display:flex;justify-content:center}.ameaca__name{display:flex;justify-content:center;color:#b2b2b2}.img__ameaca{width:20%;filter:brightness(1) invert(70%)}.ameacas__content{margin-top:10px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;grid-gap:1em;min-height:90vh}

@@ -1,0 +1,45 @@
+$red-color: #AC2511;
+$yellow-color: #FFCB49;
+$black-color: #262626;
+$white-color: #F9F9F9;
+$grey-color:  #b2b2b2;
+
+.bg {
+    &_red {
+        background-color: $red-color;
+    }
+
+    &_yellow {
+        background-color: $yellow-color;
+    }
+
+    &_black {
+        background-color: $black-color;
+    }
+
+    &_white {
+        background-color: $white-color;
+    }
+}
+
+.c {
+    &_red {
+        color: $red-color;
+    }
+
+    &_yellow {
+        color: $yellow-color;
+    }
+
+    &_black {
+        color: $black-color;
+    }
+
+    &_white {
+        color: $white-color;
+    }
+
+    &_grey {
+        color: $grey-color;
+    }
+}
