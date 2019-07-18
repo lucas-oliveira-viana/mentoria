@@ -1,1 +1,4 @@
--> mudar toda a estrutura p flexbox
+-> ids para class
+-> colocar transition no ameaças
+-> colocar fadeout no ranking pelo css
+-> estudar animation e transition no mdn

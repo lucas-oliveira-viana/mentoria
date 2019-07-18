@@ -2,9 +2,11 @@
     display: flex;
     align-items: center;
     border: 2px solid rgb(168, 167, 167);
+    transition: all .3s ease-in;
 
     &__content {
         width: 100%;
+        position: relative;
     }
 
     &__img {
