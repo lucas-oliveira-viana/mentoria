@@ -3,3 +3,11 @@
     background-color: #434242;
     transform: scale(1.1);
 }
+
+.ameaca:hover > .ameaca__content > .ameaca__img > .img__ameaca {
+    filter: brightness(1) invert(0%);
+}
+
+.ameaca:hover > .ameaca__content > .ameaca__name {
+    color: #000000;
+}

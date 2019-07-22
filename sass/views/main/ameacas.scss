@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     border: 2px solid rgb(168, 167, 167);
-    transition: all .3s ease-in;
+    transition: all 1s cubic-bezier(0, 1.24, 0.29, 1.29);
 
     &__content {
         width: 100%;
@@ -22,7 +22,7 @@
 }
 
 .img__ameaca {
-    width: 20%;
+    width: 132px;
     filter: brightness(1) invert(70%);
 }
 
