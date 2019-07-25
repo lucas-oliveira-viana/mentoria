@@ -1,7 +1,8 @@
-body, html {
+body,
+html {
     margin: 0;
     font-family: 'Roboto';
-    background-color: #262626;
+    background-image: linear-gradient(to right, #313131, #151515);
     scroll-behavior: smooth;
 }
 
@@ -11,8 +12,6 @@ body, html {
 
 nav {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     z-index: 999;
     position: fixed;
 }
@@ -35,4 +34,11 @@ section {
 #ranking {
     display: flex;
     justify-content: space-between;
+}
+
+@media (min-width: $bs-md) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
 }

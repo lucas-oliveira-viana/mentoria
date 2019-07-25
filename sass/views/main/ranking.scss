@@ -1,7 +1,10 @@
 .ranking {
     
     &__position {
-        font-size: 40px;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Alegreya Sans SC'
     }
 
     &__description {
@@ -16,13 +19,13 @@
     }
 
     &__arrows {
-        margin-top: 10%;
+        margin-top: 40%;
         display: flex;
         justify-content: space-between;
     }
 
     &__arrow {
-        width: 100px;
+        width: 60px;
         cursor:pointer;
     }
 }
@@ -30,4 +33,14 @@
 .description__content {
     width: 400px;
     padding: 20px;
+}
+
+@media (min-width: $bs-md) {
+    .ranking {
+        &__arrows {
+            margin-top: 15%!important;
+            display: flex!important;
+            justify-content: space-between!important;
+        }
+    }
 }

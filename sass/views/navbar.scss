@@ -1,11 +1,12 @@
 .navbar__logo {
-    margin-left: 20px;
-    color: 262626;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar__menu {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .menu__list {
@@ -16,4 +17,10 @@
     list-style-type: none;
     margin-right: 20px;
     font-weight: bold;
+}
+
+@media (min-width: $bs-md) {
+    .logo__content {
+        padding-left: 20px;
+    }
 }

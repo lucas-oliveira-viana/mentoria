@@ -7,31 +7,27 @@
         color: inherit;
     }
 
-    &__title::after {
-        content: ' ';
-        width: 200px;
-        display: block;
-        border: 2px solid;
-        margin-bottom: -20px;
-        margin-top: 20px;
-    }
-
     &__text {
         line-height: 28px;
         font-size: 18px;
         color: inherit;
         padding-bottom: 30px;
     }
+
+    &__content {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 150px;
+        text-align: center;
+    }
+
 }
 
-.saitama__mini {
-    height: 100%;
-}
-
-.saitama__img {
-    position: absolute;
-    align-self: flex-end;
-    width: 20%;
-    height: 35%;
-    margin-top: .4%;
+@media (min-width: $bs-md) {
+    .sinopse {
+        &__content {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
 }

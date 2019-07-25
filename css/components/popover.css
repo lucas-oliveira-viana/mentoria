@@ -1,1 +1,1 @@
-.ameaca__popover{display:flex;justify-content:center;align-items:center;width:230px;height:77px;padding:10px;border-radius:5px;background-color:#F9F9F9;position:absolute;left:80px;z-index:100;box-shadow:3px 3px 6px 0px rgba(0,0,0,0.35)}
+.ameaca__popover{display:flex;justify-content:center;align-items:center;width:230px;height:77px;padding:10px;border-radius:5px;background-color:#F9F9F9;position:absolute;left:10px;bottom:150px;z-index:100;box-shadow:3px 3px 6px 0px rgba(0,0,0,0.35)}.popover__text{font-size:14px}

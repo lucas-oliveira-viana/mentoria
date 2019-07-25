@@ -2,12 +2,14 @@
 @import './components/color.scss';
 @import './components/spacing.scss';
 @import './components/text.scss';
+@import './components/media.scss';
 @import './layout/structure.scss';
 @import './state/ameacas.scss';
 @import './state/navbar.scss';
 @import './state/ranking.scss';
+@import './views/navbar.scss';
 @import './views/main/ameacas.scss';
 @import './views/main/home.scss';
 @import './views/main/ranking.scss';
-@import './views/navbar.scss';
+@import './views/main/contact.scss';
 @import './components/popover.scss';

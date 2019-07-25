@@ -1,7 +1,22 @@
+$p85-brightness: brightness(85%);
+$orange-hue: hue-rotate(365deg);
+$normal-orange-color: #a15000;
+
+$p65-brightness: brightness(65%);
+$red-hue: hue-rotate(320deg);
+$normal-red-color: #bb0000;
+
+$green-hue: hue-rotate(425deg);
+$normal-green-color: #004f00;
+
+$yellow-hue: hue-rotate(22deg);
+$normal-yellow-color: #636400;
+
 .ameaca {
     display: flex;
+    height: 300px;
     align-items: center;
-    border: 2px solid rgb(168, 167, 167);
+    border: 2px solid $yellow-color;
     transition: all 1s cubic-bezier(0, 1.24, 0.29, 1.29);
 
     &__content {
@@ -17,21 +32,60 @@
     &__name {
         display: flex;
         justify-content: center;
-        color: #b2b2b2;
+        margin-bottom: 0;
+
+        &_tigre {
+            color: $normal-orange-color;
+        }
+
+        &_demonio {
+            color: $normal-red-color;
+        }
+
+        &_dragao {
+            color: $normal-green-color;
+        }
+
+        &_deus {
+            color: $normal-yellow-color;
+        }
     }
 }
 
-.img__ameaca {
-    width: 132px;
-    filter: brightness(1) invert(70%);
-}
+.img {
+    &__ameaca {
+        width: 132px;
 
+        &_tigre {
+            filter: invert(40%) grayscale(100%) $p85-brightness sepia(100%) $orange-hue saturate(400%) contrast(2);
+        }
+
+        &_demonio {
+            filter: invert(40%) grayscale(100%) $p65-brightness sepia(100%) $red-hue saturate(400%) contrast(2);
+        }
+
+        &_dragao {
+            filter: invert(40%) grayscale(100%) $p65-brightness sepia(100%) $green-hue saturate(400%) contrast(2);
+        }
+
+        &_deus {
+            filter: invert(40%) grayscale(100%) $p85-brightness sepia(100%) $yellow-hue saturate(400%) contrast(2);
+        }
+    }
+}
 
 .ameacas__content {
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 1em;
-    min-height: 90vh;
+    min-height: 130vh;
+}
+
+@media (min-width: $bs-md) {
+    .ameacas__content {
+        grid-template-columns: 1fr 1fr !important;
+        min-height: 100vh !important;
+    }
 }

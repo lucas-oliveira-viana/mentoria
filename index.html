@@ -7,6 +7,7 @@
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/style.css">
 
@@ -23,15 +24,16 @@
                 <li class="menu__item c_black"><a href="#home">SINOPSE</a></li>
                 <li class="menu__item c_black"><a href="#ranking">RANKING</a></li>
                 <li class="menu__item c_black"><a href="#ameacas">AMEAÇAS</a></li>
+                <li class="menu__item c_black"><a href="#contact">CONTATE-NOS</a></li>
             </ul>
         </div>
     </nav>
     <div class="main">
-        <section id="home" class="bg_black">
+        <section id="home">
             <div class="sinopse">
-                <div class="sinopse__content pl-180 pr-180 c_red bg_yellow">
-                    <h1 class="sinopse__title text_left">SINOPSE</h1>
-                    <p class="sinopse__text text_left">Após treinar durante três anos, Saitama, o protagonista, se
+                <div class="sinopse__content c_red bg_yellow_gradient">
+                    <h1 class="sinopse__title">SINOPSE</h1>
+                    <p class="sinopse__text">Após treinar durante três anos, Saitama, o protagonista, se
                         tornou
                         um herói não
                         oficial incrivelmente forte que derrota monstros ou outros vilões com um único soco. No entanto,
@@ -56,13 +58,10 @@
                     </p>
                 </div>
             </div>
-            <div class="saitama__img">
-                    <img src="img/saitama-mini.png" class="saitama__mini">
-            </div>
         </section>
         <section id="ranking" class="bg_red">
             <div class="ranking__content">
-                <h1 class="ranking__position c_white pl-50"></h1>
+                <h1 class="ranking__position c_white"></h1>
                 <div class="ranking__arrows">
                     <img src="img/left-arrow.svg" class="ranking__arrowleft ranking__arrow">
                     <img src="img/right-arrow.svg" class="ranking__arrowright ranking__arrow">
@@ -72,7 +71,7 @@
             </div>
         </section>
         <section id="ameacas">
-            <h1 class="ameacas__title text_center c_grey">NIVEIS DE AMEAÇA</h1>
+            <h1 class="ameacas__title text_center c_yellow">NIVEIS DE AMEAÇA</h1>
             <div class="ameacas__content">
                 <div class="ameaca ameaca_tigre animate">
                     <div class="ameaca__content">
@@ -83,7 +82,7 @@
                         <div class="ameaca__img">
                             <img src="img/ameaca-tigre.svg" class="img__ameaca img__ameaca_tigre">
                         </div>
-                        <h1 class="ameaca__name">TIGRE</h1>
+                        <h1 class="ameaca__name ameaca__name_tigre">TIGRE</h1>
                     </div>
                 </div>
                 <div class="ameaca ameaca_demonio">
@@ -94,18 +93,19 @@
                         <div class="ameaca__img">
                             <img src="img/ameaca-ogro.svg" class="img__ameaca img__ameaca_demonio">
                         </div>
-                        <h1 class="ameaca__name">DEMONIO</h1>
+                        <h1 class="ameaca__name ameaca__name_demonio">DEMONIO</h1>
                     </div>
                 </div>
                 <div class="ameaca ameaca_dragao">
                     <div class="ameaca__content">
                         <div class="ameaca__popover">
-                            <span class="popover__text">É denominado assim toda ameaça que pode afetar várias cidades.</span>
+                            <span class="popover__text">É denominado assim toda ameaça que pode afetar várias
+                                cidades.</span>
                         </div>
                         <div class="ameaca__img">
                             <img src="img/ameaca-dragao.svg" class="img__ameaca img__ameaca_dragao">
                         </div>
-                        <h1 class="ameaca__name">DRAGÃO</h1>
+                        <h1 class="ameaca__name ameaca__name_dragao">DRAGÃO</h1>
                     </div>
                 </div>
                 <div class="ameaca ameaca_deus">
@@ -117,8 +117,29 @@
                         <div class="ameaca__img">
                             <img src="img/ameaca-deus.svg" class="img__ameaca img__ameaca_deus">
                         </div>
-                        <h1 class="ameaca__name">DEUS</h1>
+                        <h1 class="ameaca__name ameaca__name_deus">DEUS</h1>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="contact__title text_center c_yellow">FALE CONOSCO</h1>
+            <div class="contact__area">
+                <div class="contact__img">
+                    <img src="img/saitama.jpg" class="img__contact">
+                </div>
+                <div class="contact__content">
+                    <form class="contact__form">
+                        <input type="text" name="nome" placeholder="Nome"
+                            class="contact__element contact__element_input contact__element_name">
+                        <input type="email" name="email" placeholder="Email"
+                            class="contact__element contact__element_input contact__element_email">
+                        <input type="date" name="lastname" placeholder="Data de Nascimento"
+                            class="contact__element contact__element_input contact__element_date">
+                        <textarea rows="4" placeholder="Mensagem"
+                            class="contact__element contact__element_message"></textarea>
+                        <button class="contact__element contact__element_button">Enviar</button>
+                    </form>
                 </div>
             </div>
         </section>

@@ -1,0 +1,84 @@
+$yellow-placeholder: rgb(182, 144, 50);
+$red-color: #AC2511;
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact {
+    &__area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 340px;
+        background-color: rgb(1, 1, 1);
+    }
+
+    &__content {
+        display: inline-block;
+        width: 380px;
+    }
+
+    &__img {
+        width: 605px;
+        height: 340px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Roboto'
+    }
+
+    &__element {
+        width: 80%;
+        margin-bottom: 14px;
+        font-size: 18px;
+        padding: 5px;
+        outline: none;
+
+        &::placeholder {
+            color: $yellow-placeholder
+        }
+
+        &_input {
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid $red-color;
+            color: $yellow-color;
+        }
+
+        &_date {
+            color: $yellow-placeholder;
+        }
+
+        &_message {
+            background-color: transparent;
+            border: none;
+            border: 2px solid $red-color;
+            resize: none;
+            color: $yellow-color;
+            font-family: 'Roboto'
+        }
+
+        &_button {
+            background-color: $yellow-color;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            border-radius: 5px;
+            width: 180px;
+
+            &:hover {
+                background-color: rgb(182, 144, 50);
+            }
+        }
+    }
+}
+
+.img__contact {
+    width: 100%;
+}

@@ -2,7 +2,8 @@ $red-color: #AC2511;
 $yellow-color: #FFCB49;
 $black-color: #262626;
 $white-color: #F9F9F9;
-$grey-color:  #b2b2b2;
+$grey-color: #b2b2b2;
+$yellow-gradient: linear-gradient(to bottom, #ffcb49, #ffcb498f);
 
 .bg {
     &_red {
@@ -19,6 +20,10 @@ $grey-color:  #b2b2b2;
 
     &_white {
         background-color: $white-color;
+    }
+
+    &_yellow_gradient {
+        background-image: $yellow-gradient;
     }
 }
 
