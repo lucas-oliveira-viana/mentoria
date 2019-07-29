@@ -78,6 +78,10 @@ $normal-yellow-color: #636400;
     }
 }
 
+.ameacas__title {
+    font-family: 'Poppins'
+}
+
 .ameacas__content {
     margin-top: 10px;
     display: grid;
@@ -87,7 +91,7 @@ $normal-yellow-color: #636400;
 
 @media (min-width: $bs-md) {
     .ameacas__content {
-        grid-template-columns: 1fr 1fr !important;
-        min-height: 100vh !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 }

@@ -1,13 +1,12 @@
 $yellow-placeholder: rgb(182, 144, 50);
 $red-color: #AC2511;
 
-#contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .contact {
+
+    &__title {
+        font-family: 'Poppins'
+    }
+
     &__area {
         height: 340px;
     }

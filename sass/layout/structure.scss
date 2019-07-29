@@ -25,11 +25,14 @@ nav {
 
 section {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #home {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     position: relative;
 }
 
