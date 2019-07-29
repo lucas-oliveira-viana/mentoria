@@ -1,6 +1,9 @@
 .navbar__logo {
+    font-family: 'Poppins';
+    font-weight: bold;
     display: flex;
     justify-content: center;
+    color: $white-color;
 }
 
 .navbar__menu {

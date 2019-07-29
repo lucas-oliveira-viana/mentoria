@@ -14,14 +14,16 @@ $normal-yellow-color: #636400;
 
 .ameaca {
     display: flex;
-    height: 300px;
+    height: 180px;
     align-items: center;
-    border: 2px solid $yellow-color;
     transition: all 1s cubic-bezier(0, 1.24, 0.29, 1.29);
+    outline: 0;
 
     &__content {
         width: 100%;
         position: relative;
+        display: flex;
+        justify-content: center;
     }
 
     &__img {
@@ -32,7 +34,9 @@ $normal-yellow-color: #636400;
     &__name {
         display: flex;
         justify-content: center;
-        margin-bottom: 0;
+        align-items: center;
+        margin: 0;
+        margin-left: 20px;
 
         &_tigre {
             color: $normal-orange-color;
@@ -79,8 +83,6 @@ $normal-yellow-color: #636400;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 1em;
-    min-height: 130vh;
 }
 
 @media (min-width: $bs-md) {

@@ -1,8 +1,10 @@
+$black-color: #010101;
+
 body,
 html {
     margin: 0;
     font-family: 'Roboto';
-    background-image: linear-gradient(to right, #313131, #151515);
+    background-image: linear-gradient(to right, $black-color, $black-color);
     scroll-behavior: smooth;
 }
 

@@ -9,21 +9,18 @@ $red-color: #AC2511;
 
 .contact {
     &__area {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 340px;
-        background-color: rgb(1, 1, 1);
     }
 
     &__content {
-        display: inline-block;
         width: 380px;
+        background-color: #000000;
     }
 
     &__img {
-        width: 605px;
-        height: 340px;
+        display: unset;
+        max-width: 414px;
+        height: 253px;
     }
 
     &__form {
@@ -81,4 +78,26 @@ $red-color: #AC2511;
 
 .img__contact {
     width: 100%;
+}
+
+@media (min-width: $bs-md) {
+    .contact {
+        &__area {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 340px;
+            background-color: rgb(1, 1, 1);
+        }
+
+        &__content {
+            display: inline-block;
+            width: 380px;
+        }
+
+        &__img {
+            max-width: 605px;
+            height: 340px;
+        }
+    }
 }
